@@ -1,0 +1,159 @@
+!SESSION 2024-06-13 16:42:41.136 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  pr list.jasper -o list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 pr list.jasper -o list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+
+!ENTRY com.jaspersoft.studio 1 0 2024-06-13 16:42:52.597
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.21.3.final
+
+!ENTRY com.jaspersoft.studio.data 4 0 2024-06-13 16:42:55.130
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @2820b369
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.data.HttpBuiltInParameterProvider.init(HttpBuiltInParameterProvider.java:84)
+	at com.jaspersoft.studio.data.Activator$1.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.jaspersoft.studio.server 4 0 2024-06-13 16:42:55.146
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @2820b369
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.server.JRSBuiltInParameterProvider.init(JRSBuiltInParameterProvider.java:131)
+	at com.jaspersoft.studio.server.Activator$5.run(Activator.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-13 16:43:34.166
+!MESSAGE No repository found at https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-13 16:43:44.332
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-06-13 16:45:05.604 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  pr Files/list.jasper -o HTML/list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 pr Files/list.jasper -o HTML/list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-13 16:45:08.464
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2024-06-13 16:45:11.906
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.21.3.final
+
+!ENTRY com.jaspersoft.studio.data 4 0 2024-06-13 16:45:15.329
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @60c98f25
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.data.HttpBuiltInParameterProvider.init(HttpBuiltInParameterProvider.java:84)
+	at com.jaspersoft.studio.data.Activator$1.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.jaspersoft.studio.server 4 0 2024-06-13 16:45:15.333
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @60c98f25
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.server.JRSBuiltInParameterProvider.init(JRSBuiltInParameterProvider.java:131)
+	at com.jaspersoft.studio.server.Activator$5.run(Activator.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-06-13 16:46:06.548 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  pr Files/list.jasper -o HTML/list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 pr Files/list.jasper -o HTML/list.pdf -f pdf -P Delegation_name=Value+for+Delegation_name Classe_name=Value+for+Classe_name Comune_name=Value+for+Comune_name School_name=Value+for+School_name Section_name=Value+for+Section_name Scholarization_year=Value+for+Scholarization_year number_in_classe=Value+for+number_in_classe Code_massar=Value+for+Code_massar Student_full_name=Value+for+Student_full_name Gender=Value+for+Gender Date_of_b=Value+for+Date_of_b Place_of_b=Value+for+Place_of_b
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-13 16:46:08.654
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2024-06-13 16:46:12.465
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.21.3.final
+
+!ENTRY com.jaspersoft.studio.server 4 0 2024-06-13 16:46:15.352
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @6c24f61d
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.server.JRSBuiltInParameterProvider.init(JRSBuiltInParameterProvider.java:131)
+	at com.jaspersoft.studio.server.Activator$5.run(Activator.java:120)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.jaspersoft.studio.data 4 0 2024-06-13 16:46:15.367
+!MESSAGE An error occurred
+!STACK 0
+java.lang.RuntimeException: Could not instantiate serializer com.sun.org.apache.xml.internal.serialize.XMLSerializer: java.lang.IllegalAccessException: class org.exolab.castor.xml.BaseXercesJDK5Serializer cannot access class com.sun.org.apache.xml.internal.serialize.XMLSerializer (in module java.xml) because module java.xml does not export com.sun.org.apache.xml.internal.serialize to unnamed module @6c24f61d
+	at org.exolab.castor.xml.BaseXercesJDK5Serializer.<init>(BaseXercesJDK5Serializer.java:53)
+	at org.exolab.castor.xml.XercesJDK5Serializer.<init>(XercesJDK5Serializer.java:27)
+	at org.exolab.castor.xml.XercesJDK5XMLSerializerFactory.getSerializer(XercesJDK5XMLSerializerFactory.java:29)
+	at org.exolab.castor.xml.util.XMLParserUtils.getSerializer(XMLParserUtils.java:261)
+	at org.castor.xml.AbstractInternalContext.getSerializer(AbstractInternalContext.java:321)
+	at org.exolab.castor.xml.Marshaller.configureSerializer(Marshaller.java:457)
+	at org.exolab.castor.xml.Marshaller.setWriter(Marshaller.java:404)
+	at org.exolab.castor.xml.Marshaller.<init>(Marshaller.java:358)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:140)
+	at net.sf.jasperreports.eclipse.util.CastorHelper.write(CastorHelper.java:199)
+	at com.jaspersoft.studio.prm.ParameterSetProvider.storeParameterSet(ParameterSetProvider.java:70)
+	at com.jaspersoft.studio.data.HttpBuiltInParameterProvider.init(HttpBuiltInParameterProvider.java:84)
+	at com.jaspersoft.studio.data.Activator$1.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-13 16:46:43.160
+!MESSAGE No repository found at https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/.

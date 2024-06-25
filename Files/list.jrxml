@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9ef05472-e416-4be2-9313-28caffef0245">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Delegation_name" class="java.lang.String"/>
+	<parameter name="Classe_name" class="java.lang.String"/>
+	<parameter name="Comune_name" class="java.lang.String"/>
+	<parameter name="School_name" class="java.lang.String"/>
+	<parameter name="Section_name" class="java.lang.String"/>
+	<parameter name="Scholarization_year" class="java.lang.String"/>
+	<parameter name="number_in_classe" class="java.lang.String"/>
+	<parameter name="Code_massar" class="java.lang.String"/>
+	<parameter name="Student_full_name" class="java.lang.String"/>
+	<parameter name="Gender" class="java.lang.String"/>
+	<parameter name="Date_of_b" class="java.lang.String"/>
+	<parameter name="Place_of_b" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="219" splitType="Stretch">
+			<textField>
+				<reportElement x="209" y="160" width="116" height="20" uuid="fa35037a-e1b4-47c3-a000-a26f9ad20439"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["المؤسسة:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-3" y="70" width="550" height="70" uuid="a6eda30f-1c68-439d-ae1e-cf3836aabc94"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center" markup="styled">
+					<font fontName="moha_BGA" size="35" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["لائحة التلاميذ"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="74" y="129" width="406" height="1" uuid="40036422-cb43-494e-9b8c-a9655274d7f9"/>
+				<graphicElement>
+					<pen lineWidth="6.0" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="432" y="160" width="116" height="20" uuid="e95776cd-b133-4347-9028-3e467cb969e9"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["المديرية:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="434" y="140" width="116" height="20" uuid="4fb1bf6c-1b67-451e-8531-68a69ef0cd26"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["الأكاديمية:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="209" y="140" width="116" height="20" uuid="03fd5dbc-46a8-41b7-be86-8962f6b275fc"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["الجماعة:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="183" width="86" height="20" uuid="caec31d1-99e4-47aa-b081-cd0ed1195555"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["المستوى:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="39" y="140" width="94" height="20" uuid="87006432-049e-41c2-9f3f-8cc02823bb41"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["السنة الدراسية:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="482" y="183" width="66" height="20" uuid="251a3cb4-c6ce-43dc-995c-77992ca059b8"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="13" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["القسم:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="140" width="131" height="21" uuid="70e8a746-1db3-4968-ba38-d8adb5b9537d"/>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="160" width="130" height="20" uuid="1839361a-28a9-4252-9985-5d5d16eba366"/>
+				<textFieldExpression><![CDATA[$P{Delegation_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="180" width="141" height="21" uuid="3d0f6e96-ef4a-48f0-b1fb-092b8525d5b0"/>
+				<textFieldExpression><![CDATA[$P{Classe_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="140" width="121" height="21" uuid="a7794e17-e895-456e-bff9-bff2ddb66247"/>
+				<textFieldExpression><![CDATA[$P{Comune_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="160" width="121" height="21" uuid="11b9f263-1596-4137-b359-60cbedcfd8cc"/>
+				<textFieldExpression><![CDATA[$P{School_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="180" width="131" height="21" uuid="7d8ca18c-ef63-4d92-8656-287839baefea"/>
+				<textFieldExpression><![CDATA[$P{Section_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-10" y="140" width="51" height="21" uuid="a89c0372-93b3-4f8c-8699-938f0933350f"/>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="6" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<line>
+				<reportElement x="-11" y="0" width="571" height="1" uuid="7f812ce3-5f71-45a7-b8d8-1e107473803f"/>
+			</line>
+			<line>
+				<reportElement x="-11" y="0" width="1" height="38" uuid="6b89b4b3-2d2f-44c0-8850-ff14c7ee28cc"/>
+			</line>
+			<line>
+				<reportElement x="250" y="2" width="1" height="34" uuid="12636098-84cd-4f71-9b6f-46f14d658d56"/>
+			</line>
+			<line>
+				<reportElement x="510" y="1" width="1" height="36" uuid="a0d7f333-a968-4673-b0fc-0e6c1974ab8a"/>
+			</line>
+			<line>
+				<reportElement x="559" y="1" width="1" height="37" uuid="91e1e984-543d-4f75-8ab4-d99f3b146228"/>
+			</line>
+			<line>
+				<reportElement x="-10" y="36" width="569" height="1" uuid="f9cbf990-b28f-42d6-977a-dc3f09549652"/>
+			</line>
+			<textField>
+				<reportElement x="514" y="3" width="36" height="32" uuid="f4fb8558-6dbb-4c40-8aa2-ab33dd4d3f49"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ر ت"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="4" width="80" height="30" uuid="7b088c6f-7d6e-443e-8ac7-c30d32a1b2c3"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" الرمز "]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="409" y="1" width="1" height="36" uuid="d161b565-adf0-43d6-8fdd-5d6aa26fdde5"/>
+			</line>
+			<textField>
+				<reportElement x="251" y="3" width="54" height="32" uuid="bacde3cb-9d08-431f-8c61-c046dfb76cb1"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["النوع"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="3" width="95" height="32" uuid="d83ef599-bc59-4d44-bfd8-fae0c616cfe4"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["الاسم الكامل"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="147" y="3" width="95" height="32" uuid="7f6853f2-0cd7-4d9a-86fc-9de443a7b3e2"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" تاريخ الازدياد"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="310" y="1" width="1" height="34" uuid="2bc04170-9f3d-45e6-8d4e-9dcd131c553c"/>
+			</line>
+			<line>
+				<reportElement x="140" y="0" width="1" height="38" uuid="d8f22528-4b03-462f-b2c2-50f03d644fb3"/>
+			</line>
+			<textField>
+				<reportElement x="-5" y="3" width="138" height="32" uuid="aa02ee7b-0803-4e98-8905-4a4f98db2cce"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font fontName="moha_BGA" size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" مكان الازدياد"]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="51" splitType="Stretch">
+			<line>
+				<reportElement x="250" y="-2" width="1" height="36" uuid="3423e741-9674-42de-8598-be524714ec45"/>
+			</line>
+			<line>
+				<reportElement x="-11" y="33" width="571" height="1" uuid="c47d9b2d-de86-433f-bc52-ab969b145fce"/>
+			</line>
+			<line>
+				<reportElement x="409" y="-3" width="1" height="36" uuid="4eaaaf40-4500-4a1a-a2f2-ee4da8105772"/>
+			</line>
+			<line>
+				<reportElement x="310" y="-3" width="1" height="36" uuid="5fa07a6c-87c7-46b4-b3a4-aba50a2e6681"/>
+			</line>
+			<line>
+				<reportElement x="140" y="-4" width="1" height="38" uuid="b2e17008-9cb7-4f06-8fb6-c5e959693f6e"/>
+			</line>
+			<line>
+				<reportElement x="-11" y="-5" width="1" height="38" uuid="107e4bf8-ad3a-40b7-b0fd-042c0e74075e"/>
+			</line>
+			<line>
+				<reportElement x="559" y="-4" width="1" height="38" uuid="3c6f2a5c-9e35-48c6-a2cf-e6749d42e031"/>
+			</line>
+			<line>
+				<reportElement x="510" y="-3" width="1" height="36" uuid="178334f5-40cd-4a44-9ffd-a387cf61a133"/>
+			</line>
+			<textField>
+				<reportElement x="513" y="7" width="41" height="21" uuid="e608dc48-2b28-432e-80dd-d1d3b45d2951"/>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="413" y="7" width="91" height="21" uuid="76b1e532-3ca8-4d39-8db2-5c8cbe193258"/>
+				<textFieldExpression><![CDATA[$P{Code_massar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="7" width="90" height="20" uuid="30578268-37ce-4bc6-977d-bbff794bb3a0"/>
+				<textFieldExpression><![CDATA[$P{Student_full_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="7" width="50" height="20" uuid="cfc4321c-389a-4c47-a5d7-3d774bbfb509"/>
+				<textFieldExpression><![CDATA[$P{Gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="146" y="8" width="100" height="20" uuid="e413e842-f129-4bac-8a81-f4f0fb49c95c"/>
+				<textFieldExpression><![CDATA[$P{Date_of_b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-7" y="8" width="144" height="20" uuid="5af0992a-5b8a-4444-988e-bb7a0a084efc"/>
+				<textFieldExpression><![CDATA["Text Field"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="9" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="19" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="70" y="0" width="185" height="30" uuid="33e0185b-bd52-4c68-8df2-23297286e4a3"/>
+				<box>
+					<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+				</box>
+				<textElement textAlignment="Right">
+					<font fontName="moha_BGA" size="18" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["توقيع المدير:"]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

@@ -1,0 +1,11 @@
+com.jaspersoft.studio.myreports.created=true
+com.jaspersoft.studio.theme.ui.dark=pageBackground\=0,0,0\ncontainerMarginColor\=0,255,0\ngridColor\=255,255,255\nelementDesignBorderColor\=255,255,0\npageMarginColor\=255,0,0\n
+com.jaspersoft.studio.theme.ui.light=pageBackground\=255,255,255\ncontainerMarginColor\=170,168,255\ngridColor\=192,192,192\nelementDesignBorderColor\=0,0,0\npageMarginColor\=170,168,255\n
+eclipse.preferences.version=1
+jssbranding_product_mainbundle=com.jaspersoft.studio.rcp
+jssbranding_product_name=Jaspersoft Studio Community Edition
+jssbranding_product_version=6.21.3.final
+net.sf.jasperreports.JRPROPERTIES=net.sf.jasperreports.web.resource.pattern.customvisualization.scripts\=com/jaspersoft/jasperreports/customvisualization/resources/require/.*\nnet.sf.jasperreports.compiler.temp.dir\=E\\\:\\\\JasperToHTML\nnet.sf.jasperreports.chrome.enabled\=true\nnet.sf.jasperreports.compiler.classpath\=C\\\:/Users/Phoenix/Downloads/jaspersoftstudio/plugins\\\\org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar\nnet.sf.jasperreports.chrome.page.isolate\=true\nnet.sf.jasperreports.chrome.argument.remote-allow-origins\=*\n
+net.sf.jasperreports.chrome.argument.remote-allow-origins=*
+net.sf.jasperreports.chrome.enabled=true
+net.sf.jasperreports.chrome.page.isolate=true

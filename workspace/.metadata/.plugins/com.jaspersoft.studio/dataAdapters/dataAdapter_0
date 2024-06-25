@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><emptyDataAdapter class="net.sf.jasperreports.data.empty.EmptyDataAdapterImpl">
+  <name>One Empty Record</name>
+  <recordCount>1</recordCount>
+</emptyDataAdapter>
